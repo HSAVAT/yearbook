@@ -329,8 +329,21 @@ h6 {
 	background-color: purple;
 }
 
+.hsavat-student-cs .student-image {
+	border: 3px solid gold;
+}
+
 .hsavat-student-cs a:hover {
 	background-color: gold;
+}
+
+.hsavat-student-cs a:hover .student-image {
+	border: 3px solid purple;
+}
+
+.hsavat-student-cs img {
+	width: 150px;
+	margin-left:  -20px;
 }
 
 
