@@ -254,8 +254,9 @@ h6 {
 }
 
 .student-section h1 {
-	text-align: center;
+	text-align: cente;
 	font-size: 40px;
+	color: #76367b;
 }
 
 .student-list {
@@ -376,9 +377,27 @@ h6 {
 
 /* Student Work Homepage */
 
+.student-work {
+	margin: 3em 0 2em;
+}
+
+.student-section-header {
+	text-align: center;
+}
+
+.student-work-header,
+.student-section-header {
+	font-size: 1.5em;
+	margin-bottom: 1em;
+}
+
+.student-work-header {
+	padding-right: 20em;
+}
+
 .student-presentations {
-	margin-left: 1em;
-	font-size: 16px;
+	margin-left: 2em;
+	font-size: 18px;
 }
 
 .student-presentations li {
